@@ -1,0 +1,7 @@
+.row-products {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    margin: 20px 70px;
+    justify-content: center;
+}

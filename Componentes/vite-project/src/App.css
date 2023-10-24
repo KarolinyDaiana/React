@@ -1,8 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.body img {
+.imagem-capa{
   width: 100%;
+}
+
+.tittle-products {
+  font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bt-show-more {
+  background-color: #fff;
+  border: #B88E2F 2px solid;
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: #B88E2F;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 30px;  
+  text-align: center;
+}
+.bt-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
 }

@@ -1,21 +1,34 @@
-.section {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.section-cards-first {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 30px;
+    padding: 50px;
+    font-family: 'Poppins';
 }
 
-.text {
+.section-cards-first h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #333333;
+}
+.section-cards-first h4 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #666666;
+}
+
+.text-cards-first {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cards {
+.cards-first {
     display: flex;
-    gap: 10px;
     align-items: center;
     justify-content: center;
 }
