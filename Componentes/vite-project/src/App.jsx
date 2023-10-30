@@ -2,6 +2,7 @@ import Header from './components/Header';
 import SectionCards from './components/SectionCards';
 import ProductsRow from './components/ProductsRow';
 import Explore from './components/Explore';
+import Footer from './components/Footer';
 
 import "./App.css"
 
@@ -70,6 +71,8 @@ const App = () => {
       <div className='bt-bottom'><a href="#" className='bt-show-more'>Show more</a></div>
 
       <Explore/>
+
+      <Footer />
 
     </div>
   )
