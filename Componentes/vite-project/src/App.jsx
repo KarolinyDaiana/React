@@ -3,6 +3,8 @@ import SectionCards from './components/SectionCards';
 import ProductsRow from './components/ProductsRow';
 import Explore from './components/Explore';
 import Footer from './components/Footer';
+import Quality from './components/Quality';
+import Entry from './components/Entry';
 
 import "./App.css"
 
@@ -11,7 +13,8 @@ const App = () => {
   return (
     <div className='body'>
       <Header/>
-      <img className='imagem-capa' src='./public/imgs/capa.png' />
+      
+      <Entry/>
 
       <SectionCards />
 
@@ -71,6 +74,8 @@ const App = () => {
       <div className='bt-bottom'><a href="#" className='bt-show-more'>Show more</a></div>
 
       <Explore/>
+
+      <Quality/>
 
       <Footer />
 

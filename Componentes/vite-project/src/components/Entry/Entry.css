@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.entry {
+    background-image: url('./imgs/capa.png');
+    width: full;
+    height: 718px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 80px;
+}
+
+.entry-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 55px 30px;
+    background-color: #FFF3E3;
+    font-family: 'Poppins';
+    width: 470px;
+    
+}
+.entry-banner h5 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #333;
+    font-size: 13px;
+}
+.entry-banner h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #B88E2F;
+    line-height: 55px;
+}
+.entry-banner p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.entry-banner a {
+    width: 30%;
+    background-color: #B88E2F;
+    padding: 20px;
+    text-align: center;
+    color: #FFF3E3;
+    font-weight: 600;
+}
+
+.entry-banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

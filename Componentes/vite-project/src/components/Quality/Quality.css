@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.quality {
+    background-color: #FAF3EA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0;
+    font-family: 'Poppins';
+}
+.quality h3 {
+    font-size: 15px;
+}
+.quality p {
+    font-size: 10px;
+}
+
+.quality-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.quality-card img {
+    width: 40px;
+    height: 40px;
+}

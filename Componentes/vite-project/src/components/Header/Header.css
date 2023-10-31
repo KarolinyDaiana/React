@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 20px;
     height: 60px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -35,4 +35,7 @@
 .section-icons {
     display: flex;
     gap: 30px;
+}
+.section-icons img {
+    width: 85%;
 }
