@@ -1,5 +1,5 @@
 import './ProductsRow.css';
-import Products from '../products';
+import Products from '../Products';
 
 const ProductsRow = (props) => {
     return (
