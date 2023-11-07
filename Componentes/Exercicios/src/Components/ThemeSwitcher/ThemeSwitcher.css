@@ -1,0 +1,12 @@
+.tema {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-salvar  {
+    padding: 8px 20px;
+    color: "#142f4f";
+}
