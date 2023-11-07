@@ -12,9 +12,9 @@ function DeliveryStatus() {
         <p>{estado}</p>
 
         <div>
-            <button onClick={setEstado("PENDENTE")}>PENDENTE</button>
-            <button onClick={setEstado("EM TRÂNSITO")}>EM TRÂNSITO</button>
-            <button onClick={setEstado("ENTREGUE")}>ENTREGUE</button>
+            <button onClick={() => {setEstado("PENDENTE")}}>PENDENTE</button>
+            <button onClick={() => {setEstado("EM TRÂNSITO")}}>EM TRÂNSITO</button>
+            <button onClick={() => {setEstado("ENTREGUE")}}>ENTREGUE</button>
         </div>
     </div>
   );
