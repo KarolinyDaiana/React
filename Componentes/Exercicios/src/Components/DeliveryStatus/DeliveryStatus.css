@@ -1,0 +1,24 @@
+.status {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.estado {
+    font-weight: bold;
+}
+.status p {
+    font-family: monospace;
+    font-size: 30px;
+    color: brown;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botoes button {
+    background-color: cadetblue;
+    padding: 10px;
+}

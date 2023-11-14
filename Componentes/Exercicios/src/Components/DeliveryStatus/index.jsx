@@ -7,11 +7,9 @@ function DeliveryStatus() {
 
   return (
     <div className='status'>
-        <h3>Seu pacote está....</h3>
+        <p>Seu pacote está <span className='estado'>{estado}</span> </p>
 
-        <p>{estado}</p>
-
-        <div>
+        <div className='botoes'>
             <button onClick={() => {setEstado("PENDENTE")}}>PENDENTE</button>
             <button onClick={() => {setEstado("EM TRÂNSITO")}}>EM TRÂNSITO</button>
             <button onClick={() => {setEstado("ENTREGUE")}}>ENTREGUE</button>
